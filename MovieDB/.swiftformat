@@ -1,0 +1,9 @@
+--exclude Pods
+
+--maxwidth 160
+--stripunusedargs closure-only
+--indent 2
+--commas inline
+--disable numberFormatting
+
+--swiftversion 5.5

@@ -1,0 +1,16 @@
+strings:
+  inputs: 
+    - MovieDB/Resources/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: MovieDB/Sources/Packages/Libraries/MDBUtilities/Sources/MDBUtilities/Localizer/Generated/Strings.swift
+      params:
+        bundle: Bundle.main
+        publicAccess: true
+xcassets:
+  inputs:
+    - MovieDB/Resources/Assets.xcassets
+    - MovieDB/Resources/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: MovieDB/Resources/Generated/Assets.swift

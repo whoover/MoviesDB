@@ -1,0 +1,25 @@
+// Common
+  // Copy
+"copy.copied" = "Copied";
+
+  // Buttons
+"button.cancel" = "Cancel";
+"button.back" = "Back";
+"button.ok" = "OK";
+"button.tryAgain" = "Try Again";
+
+  // Internet Error
+"error.internet" = "No internet connection";
+"error.common" = "Something went wrong";
+
+  // Activity Indicator
+"activityIndicator.onLoadingTitle" = "Loading";
+
+  // Indexation
+"indexation.description" = "Movies";
+
+// Main
+  // MoviesList
+"main.movies.list.title" = "Movies List";
+
+  // MovieDetails

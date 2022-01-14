@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Scheme</string>
+			<key>Key</key>
+			<string>movie-db_scheme</string>
+			<key>DefaultValue</key>
+			<string>unknown</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Key</key>
+			<string>movie-db_version</string>
+			<key>DefaultValue</key>
+			<string>unknown</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Environment</string>
+			<key>Key</key>
+			<string>environment</string>
+			<key>DefaultValue</key>
+			<string>unknown</string>
+			<key>Values</key>
+			<array>
+				<string>debug</string>
+				<string>prod</string>
+				<string>preProd</string>
+				<string>stage</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Debug</string>
+				<string>Prod</string>
+				<string>PreProd</string>
+				<string>Stage</string>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

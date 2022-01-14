@@ -1,0 +1,10 @@
+MOVIE_DB_LD_RUNPATH_SEARCH_PATHS = @executable_path/Frameworks @loader_path/Frameworks
+
+MOVIE_DB_OTHER_LDFLAGS = -ObjC
+
+MOVIE_DB_DEBUG_INFORMATION_FORMAT = dwarf
+
+MOVIE_DB_RELEASE_INFORMATION_FORMAT = dwarf-with-dsym
+
+CRASHLYTICS_PATH = $(BUILD_DIR)/../../SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/
+PATH_TO_GOOGLE_PLISTS=$(PROJECT_DIR)/MovieDB/Resources/GoogleService-Info.plist
